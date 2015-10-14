@@ -25,6 +25,7 @@ See our final project on Heroku [here](https://fathomless-plateau-2837.herokuapp
 #### How To Use
 
 - To implement this code first clone the repo and run bundle to install all relevant gems.
+- Run "rake db:migrate" to install the database locally.
 - You can launch the website locally using rails server. 
 - Images uploaded are stored locally while in development but when in production you will need to set up an Amazon Web Service bucket. You will then need to export the following environment variables, ENV['S3_BUCKET_NAME'], ENV['AWS_ACCESS_KEY_ID'] and ENV['AWS_SECRET_ACCESS_KEY'].
 
