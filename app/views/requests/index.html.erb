@@ -1,7 +1,7 @@
 
 <% if @charities.any? %>
   <% @charities.each do |charity| %>
-  <div class="center_container">
+  <div class="showcase_project">
     <%= render partial: 'partials/charity', locals: {charity: charity} %>
   </div>
 <% end %>
