@@ -1,6 +1,6 @@
 # AgileVentures WebSiteTwo
 
-This was our final Ronin project which we had two weeks to implement while regularly meeting with our client [AgileVentures](http://www.agileventures.org). Our client wanted a new sister site for the current one which consisted of a showcase of completed IT developing projects AgileVentures had helped charities with. They also wanted a way for charities to have a way to advertise their IT needs.
+This was our final Ronin project which we had two weeks to implement while regularly meeting with our client [AgileVentures](http://www.agileventures.org). Our client wanted a new sister site for the current one which consisted of a showcase of completed IT developing projects AgileVentures had helped charities with. They also wanted a way for charities to advertise their IT needs.
 
 See our final project on Heroku [here](https://fathomless-plateau-2837.herokuapp.com)
 
@@ -24,7 +24,7 @@ See our final project on Heroku [here](https://fathomless-plateau-2837.herokuapp
 
 #### How To Use
 
-- To implement this code fist clone the repo and run bundle to install all relevant gems.
+- To implement this code first clone the repo and run bundle to install all relevant gems.
 - You can launch the website locally using rails server. 
 - Images uploaded are stored locally while in development but when in production you will need to set up an Amazon Web Service bucket. You will then need to export the following environment variables, ENV['S3_BUCKET_NAME'], ENV['AWS_ACCESS_KEY_ID'] and ENV['AWS_SECRET_ACCESS_KEY'].
 
